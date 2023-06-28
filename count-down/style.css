@@ -122,3 +122,29 @@ input {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } */
+
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .col {
+    width: 600px;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* margin: 10px; */
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+  }
+  label {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .col div input {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
