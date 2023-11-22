@@ -1,4 +1,4 @@
-const endDate = "29 June 2023 12:00 AM";
+const endDate = "8 April 2024 12:00 AM";
 
 // All Selector
 document.getElementById("end-date").innerText = endDate;
